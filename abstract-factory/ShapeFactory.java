@@ -4,7 +4,7 @@ public class ShapeFactory extends AbstractFactory {
        if(shapeType.equalsIgnoreCase("RECTANGLE")){
           return new Rectangle();         
        }else if(shapeType.equalsIgnoreCase("SQUARE")){
-          return new Square();
+          return new RoundedSquare();
        }	 
        return null;
     }
